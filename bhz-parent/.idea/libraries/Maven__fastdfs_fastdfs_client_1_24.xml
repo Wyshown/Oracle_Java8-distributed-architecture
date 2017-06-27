@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: fastdfs:fastdfs-client:1.24">
+    <CLASSES>
+      <root url="jar://D:/usr/local/apache-maven-3.0.4/Repository/fastdfs/fastdfs-client/1.24/fastdfs-client-1.24.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/usr/local/apache-maven-3.0.4/Repository/fastdfs/fastdfs-client/1.24/fastdfs-client-1.24-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/usr/local/apache-maven-3.0.4/Repository/fastdfs/fastdfs-client/1.24/fastdfs-client-1.24-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

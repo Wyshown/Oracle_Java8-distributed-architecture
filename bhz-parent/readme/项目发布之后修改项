@@ -1,0 +1,4 @@
+1. 修改Maven bhz-parent中pom.xml
+2. 修改数据库地址 两个Config.properties中
+3. 修改Zookeeper和Dubbo服务  两个Config.properties中
+4. 修改Cas单点登录Cas Server地址 bhz-sys中 web.xml

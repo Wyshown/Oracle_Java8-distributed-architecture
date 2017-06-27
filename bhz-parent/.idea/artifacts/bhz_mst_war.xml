@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bhz-mst:war">
+    <output-path>$PROJECT_DIR$/../bhz-mst/target</output-path>
+    <root id="archive" name="bhz-mst.war">
+      <element id="artifact" artifact-name="bhz-mst:war exploded" />
+    </root>
+  </artifact>
+</component>

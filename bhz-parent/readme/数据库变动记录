@@ -1,0 +1,5 @@
+1. gch_app_mycar表增加一个字段 是否默认 is_default 默认为0
+2. 修改gch_app_mycar表中
+    brand_id 改为 brand_name
+    car_model_id 改为 car_model_name
+   删除 car_id

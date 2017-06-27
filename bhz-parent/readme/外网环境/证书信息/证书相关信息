@@ -1,0 +1,39 @@
+# 查询命令如下:
+keytool -list -v -keystore /usr/local/jdk1.8/bin/mykeystore -storepass 123456
+
+# 查询出来的证书信息
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: tomcat
+Creation date: Mar 21, 2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=hwq.gouchehui.com, OU=han, O=han, L=nj, ST=js, C=zh
+Issuer: CN=hwq.gouchehui.com, OU=han, O=han, L=nj, ST=js, C=zh
+Serial number: 6f4a56b8
+Valid from: Tue Mar 21 15:04:48 CST 2017 until: Thu Jan 28 15:04:48 CST 2027
+Certificate fingerprints:
+         MD5:  A5:9A:2F:5C:68:89:4D:85:14:A6:26:A3:84:46:5E:D4
+         SHA1: C0:5C:D5:A2:31:AF:9C:D9:17:7A:11:4A:80:75:FC:EC:2D:04:FB:A7
+         SHA256: 36:31:B6:65:3C:A8:CD:09:E6:DF:3E:FF:99:49:A6:A9:78:BD:73:73:52:74:D0:11:E2:AE:98:11:3C:CA:14:A0
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 36 03 C1 AD 1E 59 9F 47   E5 C9 76 4C 44 70 A5 E6  6....Y.G..vLDp..
+0010: 94 7A 97 37                                        .z.7
+]
+]
+
+
+
+*******************************************
+*******************************************

@@ -1,0 +1,75 @@
+服务器：CentOS6.7
+Tomcat8
+
+Mysql + Mycat 集群 主从 读写分离
+
+Spring Jdbctemplate 利用纯SQL查询出对象 集合
+
+采用Jackson技术 管理对象到Json的转换
+
+
+JAVA8
+使用JAVA8默认接口方法，lambda表达式，方法引用以及多重Annotation，y引用最新的API上的改进，比如流，函数式接口，Map以及全新的日期API
+
+
+Restful API风格框架管理接口
+
+利用Maven + Nexus 管理Maven私仓
+
+利用zookeeper集群+dubbo做分布式项目管理
+
+svn+manven+jenkis自动部署项目 （可以以后考虑）
+
+svn+svnadmin对后台账号，文件进行管理
+
+利用JDK自带的keytool生成https证书 管理信息安全 （另：不用HTTPS IOS审核不能通过）
+
+利用cas单点登录的 session + cookie + 秘钥 管理单点登录登出 或者利用redis + session管理session共享的问题
+
+
+用fastdfs集群 + nginx 对上传文件进行统一管理
+
+利用redis集群进行缓存处理
+
+利用RocketMQ 管理分布式消息队列
+
+利用swagger生成API Test
+
+
+APP
+全部用原生做
+
+PC
+Nginx集群 处理PC权重 分流
+VUE2 + Bootstrap 快速开发 页面清爽 更有模板可购买
+
+----------------------------------------
+事务控制
+
+是否需要登录 才能请求接口
+
+Dubbo直连
+1. 在用户下创建文件 dubbo-resolve.properties
+bhz.sys.facade.personalMgmt.MyCarFacade=dubbo://192.168.13.105:20880
+
+生成数据库表
+Hibnate数据库实体类
+
+telnet ip 端口  查询是否能够Ping通
+
+--------------------idea插件配置-----------------------
+添加idea插件 检查代码规范  checkstyle
+添加Jira插件配合SVN修改Jira B
+添加SSH插件 实时连接服务器
+
+------------------------------------------------------
+阿里去公网IP: 101.200.183.159
+内网公网IP: 221.226.132.149
+
+--------------------------------------------------------
+搭建服务框架
+1. 搭建Nexus Maven
+2. 修改pom.xml里的Maven地址
+3. 上传收费JAR包到Nexus里
+
+

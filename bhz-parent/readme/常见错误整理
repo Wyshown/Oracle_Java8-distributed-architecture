@@ -1,0 +1,22 @@
+1. you must use at least one,but not more then one http method annotation on: XX
+运行时异常: 主要原因是 把rest接口,注解写到了实现类上,应该写到接口类上
+如:
+把实现类的上 (如下) 放接口类上
+@Path("/")
+@Consumes({})
+@Produces({})
+把实现类方法上的(如下) 放到接口类上
+@POST
+@Path("/")
+
+2. idea IDE中 Maven Projects中Maven Jar包出错
+可能是因为Jar包在仓库中不存在 需要在Nexus中 3rd中party中上传所需要的Jar包
+
+3.org.springframework.web.util.NestedServletException:
+Handler processing failed; nested exception is java.lang.NoSuchMethodError:
+javax.servlet.http.HttpServletRequest.getServletMapping()Ljavax/servlet/http/ServletMapping;
+
+(1)判断Tomcat下 jsp-api.war和servlet-api.war是否存在
+(2)判断Tomcat的版本 tomcat9无javax.servlet.http.HttpServletRequest.getServletMapping()方法,需要用tomcat8
+
+
