@@ -1,7 +1,7 @@
 服务器：CentOS6.7
 Tomcat8
 
-# Mysql + Mycat 集群 主从 读写分离
+// Mysql + Mycat 集群 主从 读写分离
 
 数据库采用Oracle 
 
