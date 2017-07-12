@@ -12,9 +12,6 @@ import java.io.*;
  * <B>模块名称：</B><BR>
  * <B>中文类名：</B>FastDFS分布式文件系统操作客户端<BR>
  * <B>概要说明：</B>FastDFS分布式文件系统操作客户端<BR>
- * @author bhz
- * @author bhz
- * @since 2013年11月10日
  */
 public class FastDFSClientUtils {
 

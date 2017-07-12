@@ -1,5 +1,3 @@
-package bhz.com.web;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,7 +5,7 @@ import java.util.stream.Collectors;
 /**
  * Created by Administrator on 2017/6/20.
  */
-public class Main {
+public class MainTest {
 
     public static void main(String arg[]){
 
